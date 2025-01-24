@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
-<ns3:modelConfig xsi:type="ns3:ModelConfig" folder="" pauseCalculations="false" entityCode="1" loadPath="repo7" entityName="repo7" version="34" name="repo7" lastUpdated="2025-01-24T17:27:05.650+02:00" lastUpdatedBy="admin" id="admin:MODEL:repo7" xmlns:ns6="http://www.modelshop.com/services/account/types" xmlns:ns5="http://www.modelshop.com/datacore/message/types" xmlns:ns8="http://www.modelshop.com/datacore/generator/types" xmlns:ns7="http://www.modelshop.com/datacore/repository/types" xmlns:ns2="http://www.modelshop.com/datacore/view/types" xmlns:ns4="http://www.modelshop.com/services/model/types" xmlns:ns3="http://www.modelshop.com/model/model/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ns3:modelConfig xsi:type="ns3:ModelConfig" folder="" pauseCalculations="false" entityCode="1" loadPath="repo7clone" entityName="repo7clone" version="34" name="repo7clone" lastUpdated="2025-01-24T17:27:05.650+02:00" lastUpdatedBy="admin" id="admin:MODEL:repo7" xmlns:ns6="http://www.modelshop.com/services/account/types" xmlns:ns5="http://www.modelshop.com/datacore/message/types" xmlns:ns8="http://www.modelshop.com/datacore/generator/types" xmlns:ns7="http://www.modelshop.com/datacore/repository/types" xmlns:ns2="http://www.modelshop.com/datacore/view/types" xmlns:ns4="http://www.modelshop.com/services/model/types" xmlns:ns3="http://www.modelshop.com/model/model/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <datalists entityCode="4" entityName="Stock Fundamental" version="34" name="Stock Fundamental" created="2025-01-24T17:27:05.649+02:00" createdBy="admin" lastUpdated="2025-01-24T17:27:05.649+02:00" lastUpdatedBy="admin" id="Stock Fundamental">
         <dataFields type="text" fieldCode="100" rawType="java.lang.String" allowNull="true" name="Symbol" initialized="true" id="Symbol"/>
         <dataFields type="text" fieldCode="101" rawType="java.lang.String" allowNull="true" name="Name" initialized="true" id="Name"/>
@@ -52,10 +52,14 @@
             <defaultValue source="id"/>
         </dataFields>
     </datalists>
-    <views allColumns="true" default="true" modelView="true" entityName="repo7" name="repo7" description="Default view for list repo7" id="repo7"/>
+    <datalists entityCode="10" entityName="Datalist1" version="40" name="Datalist1" description="" created="2025-01-24T17:42:06.494+02:00" createdBy="admin" lastUpdated="2025-01-24T17:42:06.494+02:00" lastUpdatedBy="admin" id="Datalist1"/>
+    <datalists entityCode="11" entityName="Datalist2" version="43" name="Datalist2" description="" created="2025-01-24T17:42:08.267+02:00" createdBy="admin" lastUpdated="2025-01-24T17:42:08.267+02:00" lastUpdatedBy="admin" id="Datalist2"/>
+    <views allColumns="true" default="true" modelView="true" entityName="repo7clone" name="repo7clone" description="Default view for list repo7" id="repo7clone"/>
     <views allColumns="true" default="true" entityName="Stock Fundamental" name="Stock Fundamental" description="Default view for list Stock Fundamental" id="Stock Fundamental"/>
     <views allColumns="true" default="true" entityName="Price Target" name="Price Target" description="Default view for list Price Target" id="Price Target"/>
     <views allColumns="true" default="true" entityName="Sector Outlook" name="Sector Outlook" description="Default view for list Sector Outlook" id="Sector Outlook"/>
+    <views allColumns="true" default="true" entityName="Datalist1" name="Datalist1" description="Default view for list Datalist1" id="Datalist1"/>
+    <views allColumns="true" default="true" entityName="Datalist2" name="Datalist2" description="Default view for list Datalist2" id="Datalist2"/>
     <views allColumns="true" default="true" entityName="Strategy" name="Strategy" description="Default view for list Strategy" id="Strategy"/>
     <connectors layoutDetected="true" entityName="Stock Fundamental" version="25" name="Stock Fundamental" created="2025-01-24T17:16:07.360+02:00" createdBy="admin" lastUpdated="2025-01-24T17:16:07.360+02:00" lastUpdatedBy="admin" id="Stock Fundamental">
         <connectorFields columnIndex="0" ignore="false" mapField="Symbol" type="text" rawType="String" allowNull="true" name="Symbol" id="Symbol"/>
